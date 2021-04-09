@@ -59,6 +59,7 @@ export default {
         dev: !production,
       },
     }),
+
     // we'll extract any component CSS out into
     // a separate file - better for performance
     css({ output: "bundle.css" }),
@@ -72,7 +73,9 @@ export default {
       browser: true,
       dedupe: ["svelte"],
     }),
+
     commonjs(),
+
     typescript({
       sourceMap: !production,
       inlineSources: !production,

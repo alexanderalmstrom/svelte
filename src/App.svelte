@@ -6,5 +6,4 @@
   <h1>Hello {name}!</h1>
 </main>
 
-<style lang="scss">
-</style>
+<style src="./App.scss"></style>
